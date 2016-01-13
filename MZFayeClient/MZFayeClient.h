@@ -112,6 +112,8 @@ typedef void (^MZFayeClientFailureHandler)(NSError *error);
  */
 @property (nonatomic, readonly) NSDictionary *extensions;
 
+@property (nonatomic) NSDictionary *globalExtension;
+
 /**
  * Returns whether the faye client should auto retry connection
  * By default, this is YES
